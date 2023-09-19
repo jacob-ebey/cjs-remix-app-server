@@ -2,10 +2,9 @@
   "name": "cjs-remix-app-server",
   "private": true,
   "sideEffects": false,
-  "type": "module",
   "scripts": {
     "build": "remix build",
-    "dev": "remix dev --manual",
+    "dev": "remix dev",
     "start": "remix-serve ./build/index.js",
     "typecheck": "tsc"
   },
