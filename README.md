@@ -1,5 +1,9 @@
 # Welcome to Remix!
 
+This repo exists as an example of what it takes to use CJS instead of ESM in remix V2. Essentially, if your existing app is CJS, add `serverModuleFormat: "cjs"` to your `remix.config.js`. Here is the full diff as of 2.0.0 [https://github.com/jacob-ebey/cjs-remix-app-server/commit/de2b18b4c04c8b4c6f7205300e13df4b38699a79](https://github.com/jacob-ebey/cjs-remix-app-server/commit/de2b18b4c04c8b4c6f7205300e13df4b38699a79)
+
+There is currently a bug where `--manual` doesn't bust the CJS module cache.
+
 - [Remix Docs](https://remix.run/docs)
 
 ## Development
